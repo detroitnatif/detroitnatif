@@ -4,7 +4,7 @@ hi, i'm Tyler, am undergraduate at Duke University and am passionate about techn
 
   <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
   
-- 💼 any freelance work? do reach, [email](mailto:tyler.klimasa@duke.edu) :)
+- 💼 Looking for an intership, [email](mailto:tyler.klimasa@duke.edu) :)
 - 💬 ask me about anything, i am happy to help;
 
 **languages and tools:**  
