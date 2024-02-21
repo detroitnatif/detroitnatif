@@ -1,11 +1,17 @@
 
-hi, i'm Tyler, am undergraduate at Duke University and am passionate about technologies that push humanity forward. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality of the things I build.
+hi, i'm Tyler, am undergraduate at Duke University thinking about solutions to humanities biggest challeneges. Making an effort one line of code at a time. 
+
+<div align="center">
+  <a href="https://github.com/keyz/keyz/blame/main/thonk.svg">
+    <img src="thonk.svg" width="720" height="480">
+  </a>
+</div>
+
 
 
   
   
-- 💼 I am looking for an internship, [email](mailto:tyler.klimasa@duke.edu) :)
-- 💬 ask me about anything, i am happy to help;
+- Looking for internships Summer 2024, please reach out to [email](mailto:tyler.klimasa@duke.edu) <3
 
 **languages and tools:**  
 
@@ -39,11 +45,5 @@ Bash         20 mins         ▒░░░░░░░░░░░░░░░░
 
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=detroitnatif&show_icons=true&theme=gotham" alt="detroitnatif" />
 
-
-<div align="center">
-  <a href="https://github.com/keyz/keyz/blame/main/thonk.svg">
-    <img src="thonk.svg" width="720" height="480">
-  </a>
-</div>
 
 
