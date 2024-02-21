@@ -1,6 +1,4 @@
 
-hi, i'm Tyler, am undergraduate at Duke University thinking about solutions to humanities biggest challeneges. Making an effort one line of code at a time. 
-
 <div align="center">
   <a href="https://github.com/keyz/keyz/blame/main/thonk.svg">
     <img src="thonk.svg" width="720" height="480">
