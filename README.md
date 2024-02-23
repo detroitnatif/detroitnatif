@@ -1,12 +1,7 @@
-<style>
-  #container img {
-    border: none;
-  }
-</style>
 
 <div id="container" align="center" style="padding-bottom: 200px;">
   <a>
-    <img src="thonk.svg" width="720" height="480">
+    <img src="thonk.svg" width="720" height="480" style="border: none; padding-bottom: 200px;">
   </a>
 </div>
 
