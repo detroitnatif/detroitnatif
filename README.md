@@ -8,6 +8,6 @@
 
 
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=detroitnatif&show_icons=true&theme=gotham" alt="detroitnatif" width="720" height='300' />
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=detroitnatif&show_icons=true&theme=gotham" alt="detroitnatif"  />
 
 
