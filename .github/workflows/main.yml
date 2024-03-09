@@ -1,41 +1,34 @@
-name: Update README with Bitcoin Price
+name: Update README with Bitcoin Price Badge
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Runs every 5 minutes
+    - cron: '*/5 * * * *' # Runs every hour, adjust the timing as needed
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  update-readme:
+  update-bitcoin-price-badge:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      
-      - name: Install jq
-        run: sudo apt-get install jq
-      
+
       - name: Fetch Bitcoin Price
         id: fetch-bitcoin-price
         run: |
           BTC_PRICE=$(curl -s 'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd' | jq -r '.bitcoin.usd')
           echo "BTC_PRICE=$BTC_PRICE" >> $GITHUB_ENV
-      
-      - name: Update README
+
+      - name: Update README with Dynamic Bitcoin Price Badge
         run: |
-          sed -i "s/Bitcoin Price: .*/Bitcoin Price: \$${BTC_PRICE} USD/g" README.md
+          BADGE_URL="https://img.shields.io/badge/Bitcoin%20Price-\$$BTC_PRICE-brightgreen?style=flat"
+          sed -i "s|https://img.shields.io/badge/Bitcoin%20Price-.*|$BADGE_URL|" README.md
         env:
           BTC_PRICE: ${{ env.BTC_PRICE }}
-      
+
       - name: Commit and push if changed
         run: |
-          git config --global user.email "action@github.com"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub Action"
-          git diff
-          git status
           git add README.md
-          git commit -m "Update Bitcoin price" -a || echo "No changes to commit"
+          git commit -m "Update README with the latest Bitcoin price badge" -a || echo "No changes to commit"
           git push || echo "No changes to push"
