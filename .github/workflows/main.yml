@@ -1,0 +1,31 @@
+name: Update README with Bitcoin Price
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour, adjust to your preference
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      - name: Fetch Bitcoin Price
+        id: fetch-bitcoin-price
+        run: |
+          BTC_PRICE=$(curl -s https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd | jq -r '.bitcoin.usd')
+          echo "::set-output name=btc_price::$BTC_PRICE"
+      
+      - name: Update README
+        run: |
+          BTC_PRICE=${{ steps.fetch-bitcoin-price.outputs.btc_price }}
+          sed -i "s/Bitcoin Price: \$.*/Bitcoin Price: \$$BTC_PRICE USD/g" README.md
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update Bitcoin price" -a || echo "No changes to commit"
+          git push
