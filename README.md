@@ -7,7 +7,7 @@
 
   
   <!-- Bitcoin Price Placeholder -->
-  <p>Bitcoin Price: $... USD</p>
+  <p>Bitcoin Price: ${"error":"Missing parameter vs_currencies"} USD
 </div>
 
 
