@@ -16,11 +16,8 @@ jobs:
         run: |
           BTC_PRICE=$(curl -s 'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd' | jq -r '.bitcoin.usd')
           echo "BTC_PRICE=${BTC_PRICE}" >> $GITHUB_ENV
-          BADGE_URL="https://img.shields.io/badge/Bitcoin%20Price-$${BTC_PRICE}-brightgreen?style=flat"
-          echo "BADGE_URL=${BADGE_URL}" >> $GITHUB_ENV
-          sed -i "s|https://img.shields.io/badge/Bitcoin%20Price-.*|${BADGE_URL}|" README.md
-        env:
-          BTC_PRICE: ${{ env.BTC_PRICE }}
+          BADGE_URL="https://img.shields.io/badge/Bitcoin%20Price-\$$BTC_PRICE-brightgreen?style=flat"
+          sed -i "s|https://img.shields.io/badge/Bitcoin%20Price-%24...-lightgrey?style=flat|${BADGE_URL}|" README.md
 
       - name: Commit and push if changed
         run: |
@@ -29,3 +26,4 @@ jobs:
           git add README.md
           git commit -m "Update README with the latest Bitcoin price badge" -a || echo "No changes to commit"
           git push || echo "No changes to push"
+
