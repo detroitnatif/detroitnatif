@@ -27,7 +27,7 @@ jobs:
           fi
       - name: Update README with Dynamic Bitcoin Price Badge
         run: |
-          BADGE_URL="https://img.shields.io/badge/Bitcoin%20Price-\$$BTC_PRICE-orange?style=flat"
+          BADGE_URL="https://img.shields.io/badge/BTC-\$$BTC_PRICE-orange?style=flat"
           echo "Updating badge URL to: $BADGE_URL"
           sed -i "s|https://img.shields.io/badge/Bitcoin%20Price-\$...-orange?style=flat|${BADGE_URL}|" README.md
       - name: Commit and push if changed
@@ -35,5 +35,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "GitHub Action"
           git add README.md
-          git commit -m "Update README with the latest Bitcoin price badge" -a || echo "No changes to commit"
+          git commit -m "Update README with the latest BTC price badge" -a || echo "No changes to commit"
           git push || echo "No changes to push"
+
