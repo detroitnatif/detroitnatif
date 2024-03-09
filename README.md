@@ -7,7 +7,8 @@
 
   
   <!-- Bitcoin Price Placeholder -->
-  <p>Bitcoin Price: $68527 USD
+![Bitcoin Price](https://img.shields.io/badge/Bitcoin%20Price-%24...-lightgrey?style=flat)
+
 </div>
 
 
