@@ -7,9 +7,9 @@
     <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=detroitnatif&" alt="detroitnatif" />
   </div>
 
-  <!-- Bitcoin Price Placeholder for Workflow to Replace -->
+  <!-- Bitcoin Price Badge -->
   <div style="margin-top: 20px;">
-    <img src="https://img.shields.io/badge/Bitcoin%20Price-$68347-brightgreen?style=flat
+    <img src="https://img.shields.io/badge/Bitcoin%20Price-$...-orange?style=flat" alt="Bitcoin Price" />
   </div>
 </div>
 
