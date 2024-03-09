@@ -4,8 +4,10 @@
   </a>
 
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=detroitnatif&" alt="detroitnatif" />
-</div>
 
+  
   <!-- Bitcoin Price Placeholder -->
   <p>Bitcoin Price: $... USD</p>
+</div>
+
 
