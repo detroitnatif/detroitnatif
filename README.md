@@ -8,10 +8,10 @@
   </div>
 
   <!-- Bitcoin Price Placeholder for Workflow to Replace -->
+  <div style="margin-top: 20px;">
+    <img src="https://img.shields.io/badge/Bitcoin%20Price-$...-brightgreen?style=flat" alt="Bitcoin Price" />
+  </div>
 </div>
-
-  <img src="https://img.shields.io/badge/Bitcoin%20Price-$68337-brightgreen?style=flat
-
 
 
 
