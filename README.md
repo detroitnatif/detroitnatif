@@ -4,11 +4,10 @@
   </a>
 
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=detroitnatif&" alt="detroitnatif" />
-
-  
-  <!-- Bitcoin Price Placeholder -->
-![Bitcoin Price](https://img.shields.io/badge/Bitcoin%20Price-$68323-brightgreen?style=flat
-
 </div>
+
+<!-- Bitcoin Price Placeholder -->
+![Bitcoin Price](https://img.shields.io/badge/Bitcoin%20Price-$...-brightgreen?style=flat)
+
 
 
