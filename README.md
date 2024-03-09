@@ -1,13 +1,18 @@
 <div id="container" align="center" style="padding-bottom: 200px;">
   <a>
-    <img src="thonk.svg" width="720" height="480" style="border: none; padding-bottom: 200px;">
+    <img src="thonk.svg" width="720" height="480" style="border: none; padding-bottom: 200px;" />
   </a>
 
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=detroitnatif&" alt="detroitnatif" />
+  <div>
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=detroitnatif&" alt="detroitnatif" />
+  </div>
 
-  <!-- Centered Bitcoin Price Badge below the stats -->
-  <img src="https://img.shields.io/badge/Bitcoin%20Price-$68415-brightgreen?style=flat
+  <!-- Bitcoin Price Placeholder for Workflow to Replace -->
+  <div style="margin-top: 20px;">
+    <img src="https://img.shields.io/badge/Bitcoin%20Price-$...-brightgreen?style=flat" alt="Bitcoin Price" />
+  </div>
 </div>
+
 
 
 
