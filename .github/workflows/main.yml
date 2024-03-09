@@ -2,12 +2,11 @@ name: Update README with Bitcoin Price Badge
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Runs every 5 minutes
+    - cron: '*/30 * * * *' # Runs every 5 minutes
   workflow_dispatch:
 
 permissions:
   contents: write
-
 
 jobs:
   update-bitcoin-price-badge:
@@ -29,9 +28,9 @@ jobs:
 
       - name: Update README with Dynamic Bitcoin Price Badge
         run: |
-          BADGE_URL="https://img.shields.io/badge/Bitcoin%20Price-\$$BTC_PRICE-brightgreen?style=flat"
+          BADGE_URL="https://img.shields.io/badge/Bitcoin%20Price-\$$BTC_PRICE-orange?style=flat"
           echo "Updating badge URL to: $BADGE_URL"
-          sed -i "s|https://img.shields.io/badge/Bitcoin%20Price-.*|${BADGE_URL}|" README.md
+          sed -i "s|https://img.shields.io/badge/Bitcoin%20Price-\$[0-9]*-brightgreen?style=flat|${BADGE_URL}|" README.md
 
       - name: Commit and push if changed
         run: |
@@ -40,4 +39,5 @@ jobs:
           git add README.md
           git commit -m "Update README with the latest Bitcoin price badge" -a || echo "No changes to commit"
           git push || echo "No changes to push"
+
 
