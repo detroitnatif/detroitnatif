@@ -7,7 +7,7 @@
 </div>
 
 <!-- Bitcoin Price Placeholder -->
-![Bitcoin Price](https://img.shields.io/badge/Bitcoin%20Price-$...-brightgreen?style=flat)
+![Bitcoin Price](https://img.shields.io/badge/Bitcoin%20Price-$68335-brightgreen?style=flat
 
 
 
