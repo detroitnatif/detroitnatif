@@ -9,7 +9,7 @@
 
   <!-- Bitcoin Price Placeholder for Workflow to Replace -->
   <div style="margin-top: 20px;">
-    <img src="https://img.shields.io/badge/Bitcoin%20Price-$68314-brightgreen?style=flat
+    <img src="https://img.shields.io/badge/Bitcoin%20Price-$68347-brightgreen?style=flat
   </div>
 </div>
 
