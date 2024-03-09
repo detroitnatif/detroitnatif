@@ -2,7 +2,7 @@ name: Update README with Bitcoin Price
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour, adjust to your preference
+    - cron: '*/5 * * * *' # Runs every hour, adjust to your preference
 
 jobs:
   update-readme:
