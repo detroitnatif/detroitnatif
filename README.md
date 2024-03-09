@@ -9,7 +9,7 @@
 
   <!-- Bitcoin Price Badge -->
   <div style="margin-top: 20px;">
-    <img src="https://img.shields.io/badge/Bitcoin%20Price-$...-orange?style=flat" alt="Bitcoin Price" />
+    <img src="https://img.shields.io/badge/Bitcoin%20Price-$68441-orange?style=flat" alt="Bitcoin Price" />
   </div>
 </div>
 
