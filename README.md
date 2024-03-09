@@ -7,7 +7,7 @@
     <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=detroitnatif&" alt="detroitnatif" />
   </div>
 
-  <!-- Bitcoin Price Badge -->
+  <!-- Bitcoin Price Badge Updated in workflows every 30 minutes -->
   <div style="margin-top: 20px;">
     <img src="https://img.shields.io/badge/Bitcoin%20Price-$68441-orange?style=flat" alt="Bitcoin Price" />
   </div>
