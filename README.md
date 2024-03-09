@@ -6,7 +6,7 @@
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=detroitnatif&" alt="detroitnatif" />
 
   <!-- Centered Bitcoin Price Badge below the stats -->
-  <img src="https://img.shields.io/badge/Bitcoin%20Price-$...-brightgreen?style=flat" alt="Bitcoin Price" style="margin-top: 20px;" />
+  <img src="https://img.shields.io/badge/Bitcoin%20Price-$68415-brightgreen?style=flat
 </div>
 
 
