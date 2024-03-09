@@ -7,7 +7,7 @@
 
   
   <!-- Bitcoin Price Placeholder -->
-  <p>Bitcoin Price: $68496 USD
+  <p>Bitcoin Price: $68527 USD
 </div>
 
 
