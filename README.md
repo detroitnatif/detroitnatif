@@ -7,7 +7,7 @@
   <div style="margin-top: 20px;">
     <!-- Dynamic BTC Price Badge Placeholder -->
     <!-- This badge will display the current Bitcoin price. It's automatically updated by a GitHub Actions workflow every 30 minutes. -->
-    <img src="https://img.shields.io/badge/BTC-$...-orange?style=flat" alt="BTC Price" />
+    <img src="https://img.shields.io/badge/BTC-$72398-orange?style=flat" alt="BTC Price" />
   </div>
 </div>
 
