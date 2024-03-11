@@ -29,7 +29,7 @@ jobs:
         run: |
           BADGE_URL="https://img.shields.io/badge/BTC-\$$BTC_PRICE-orange?style=flat"
           echo "Updating badge URL to: $BADGE_URL"
-          sed -i "s|https://img.shields.io/badge/BTC-\$...-orange?style=flat|${BADGE_URL}|" README.md
+          sed -i "s|https://img.shields.io/badge/BTC-[^-]*-orange?style=flat|${BADGE_URL}|" README.md
       - name: Commit and push if changed
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
