@@ -6,7 +6,7 @@
   <!-- BTC Price Badge Updated in workflows every 30 minutes -->
   <div style="margin-top: 20px;">
     <!-- Dynamic BTC Price Badge Placeholder -->
-    <img src="https://img.shields.io/badge/BTC-$64251-orange?style=flat" alt="BTC Price" />
+    <img src="https://img.shields.io/badge/BTC-$64238-orange?style=flat" alt="BTC Price" />
   </div>
 </div>
 
